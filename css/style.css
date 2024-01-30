@@ -1,0 +1,40 @@
+:root{
+    --root_color: #
+    --secundary_color:#
+    
+}
+html {
+    /* Propiedad específica de WebKit */
+    -webkit-text-size-adjust: 100%;
+
+    /* Propiedad estándar */
+    text-size-adjust: 100%;
+}
+.title{
+    display: grid;
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.number_input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+.input_box{
+    align-content: center;
+    width: 100%;
+    height: 40%;
+}
+.txt_input{
+    text-align: center;
+}
+.alert{
+    align-self: center;
+}
